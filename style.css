@@ -4,7 +4,11 @@ body{
 }
 .bg{
     background-image: url(img/header_back.png);
+<<<<<<< HEAD
     height: 2000px;
+=======
+    height: 1000px;
+>>>>>>> b84a05e06bc460e712e8abe46589fc03c4f08a76
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;

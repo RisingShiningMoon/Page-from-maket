@@ -4,7 +4,7 @@ body{
 }
 .bg{
     background-image: url(img/header_back.png);
-    height: 100vh;
+    height: 2000px;
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;

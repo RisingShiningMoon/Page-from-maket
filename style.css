@@ -98,6 +98,10 @@ max-width: 550px;
     width: 200px;
     height: 40px;
     background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+    
+}
+.btn:hover{
+    background: linear-gradient(to right, rgb(48, 165, 153), rgb(17, 150, 180));
 }
 .punkti{
     width: 100%;
@@ -176,3 +180,11 @@ input{
     margin: auto 0;
     color: #000;
 }
+@media screen and (max-width: 1000px) { /* Минимум 512 цветов */
+    .about-us {
+         display: block; 
+    }
+    .menu{
+        visibility: hidden;
+    }
+  }

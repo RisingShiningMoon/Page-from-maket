@@ -98,10 +98,14 @@ max-width: 550px;
     width: 200px;
     height: 40px;
     background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+<<<<<<< HEAD
     
 }
 .btn:hover{
     background: linear-gradient(to right, rgb(48, 165, 153), rgb(17, 150, 180));
+=======
+    cursor: pointer;
+>>>>>>> e155859d36211617fd0921d1f537c8407dff82ce
 }
 .punkti{
     width: 100%;
@@ -129,7 +133,7 @@ max-width: 550px;
 .slider{
     margin: 0 auto;
     margin-top: 50px;
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .map{
     position: relative;
@@ -160,9 +164,10 @@ input{
 }
 .contacts{
     margin: 50px 350px 50px 20px;
-    width: 300px;
+    padding: 30px 20px 20px 20px;
+    /* width: 300px; */
     background-color: white;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .footer_things{
     position: absolute;
@@ -173,12 +178,14 @@ input{
     justify-content: space-between;
     width: 100%;
     padding: 0 15% 0 15%;
+    /* align-items: center; */
 }
 .iconki{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     margin: auto 0;
     color: #000;
+<<<<<<< HEAD
 }
 @media screen and (max-width: 1000px) { /* Минимум 512 цветов */
     .about-us {
@@ -188,3 +195,75 @@ input{
         visibility: hidden;
     }
   }
+=======
+    margin: 10px 10px 10px 10px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.forma input, textarea{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pricing{
+    background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocks{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blocks .blocks__1,.blocks__2,.blocks__3{
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    position: relative;
+}
+.blocks .blocks__1{
+    width: 350px;
+    height: 60vh;
+}
+.blocks .blocks__2{
+    width: 400px;
+    height: 70vh;
+    z-index: 1;
+}
+.blocks .blocks__3{
+    width: 350px;
+    height: 60vh;
+}
+.circle{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+    border-radius: 400%;
+    position: absolute;
+    z-index: 1;
+}
+.blc{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+}
+.block__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.avalible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+>>>>>>> e155859d36211617fd0921d1f537c8407dff82ce
